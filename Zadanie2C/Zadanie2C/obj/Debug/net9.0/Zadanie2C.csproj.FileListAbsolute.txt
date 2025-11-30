@@ -1,0 +1,14 @@
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\bin\Debug\net9.0\Zadanie2C.exe
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\bin\Debug\net9.0\Zadanie2C.deps.json
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\bin\Debug\net9.0\Zadanie2C.runtimeconfig.json
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\bin\Debug\net9.0\Zadanie2C.dll
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\bin\Debug\net9.0\Zadanie2C.pdb
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\Zadanie2C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\Zadanie2C.AssemblyInfoInputs.cache
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\Zadanie2C.AssemblyInfo.cs
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\Zadanie2C.csproj.CoreCompileInputs.cache
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\Zadanie2C.dll
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\refint\Zadanie2C.dll
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\Zadanie2C.pdb
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\Zadanie2C.genruntimeconfig.cache
+C:\Users\gacek\Desktop\sem2\PPZO\L\zad1\Zadanie2C\Zadanie2C\obj\Debug\net9.0\ref\Zadanie2C.dll

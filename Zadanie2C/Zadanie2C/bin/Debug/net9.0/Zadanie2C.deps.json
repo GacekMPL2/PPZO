@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Zadanie2C/1.0.0": {
+        "runtime": {
+          "Zadanie2C.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zadanie2C/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
