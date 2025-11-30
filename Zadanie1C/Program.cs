@@ -18,13 +18,13 @@ class Program
             switch (wybor)
             {
                 case "1":
-                    Kalkulator();
+                    Calculator();
                     break;
                 case "2":
-                    KonwerterTemperatur();
+                    TemperatureConverter();
                     break;
                 case "3":
-                    SredniaOcen();
+                    GradesAverage();
                     break;
                 case "0":
                     return;
@@ -36,7 +36,7 @@ class Program
     }
 
     // --- Funkcja pomocnicza do wczytywania liczby ---
-    static double WczytajDouble(string komunikat)
+    static double ReadDouble(string komunikat)
     {
         double liczba;
         while (true)
@@ -49,7 +49,7 @@ class Program
         }
     }
 
-    static int WczytajInt(string komunikat)
+    static int ReadInt(string komunikat)
     {
         int liczba;
         while (true)
@@ -63,10 +63,10 @@ class Program
     }
 
     // --- Zadanie 1 ---
-    static void Kalkulator()
+    static void Calculator()
     {
-        double a = WczytajDouble("Podaj pierwszą liczbę: ");
-        double b = WczytajDouble("Podaj drugą liczbę: ");
+        double a = ReadDouble("Podaj pierwszą liczbę: ");
+        double b = ReadDouble("Podaj drugą liczbę: ");
 
         Console.Write("Wybierz operację (+, -, *, /): ");
         string op = Console.ReadLine();
@@ -99,7 +99,7 @@ class Program
     }
 
     // --- Zadanie 2 ---
-    static void KonwerterTemperatur()
+    static void TemperatureConverter()
     {
         Console.Write("Wybierz konwersję (C lub F): ");
         string kierunek = Console.ReadLine().ToUpper();
@@ -107,12 +107,12 @@ class Program
         switch (kierunek)
         {
             case "C":
-                double c = WczytajDouble("Podaj temperaturę w °C: ");
+                double c = ReadDouble("Podaj temperaturę w °C: ");
                 Console.WriteLine($"{c}°C = {c * 1.8 + 32}°F");
                 break;
 
             case "F":
-                double f = WczytajDouble("Podaj temperaturę w °F: ");
+                double f = ReadDouble("Podaj temperaturę w °F: ");
                 Console.WriteLine($"{f}°F = {(f - 32) / 1.8}°C");
                 break;
 
@@ -123,14 +123,14 @@ class Program
     }
 
     // --- Zadanie 3 ---
-    static void SredniaOcen()
+    static void GradesAverage()
     {
-        int n = WczytajInt("Podaj liczbę ocen: ");
+        int n = ReadInt("Podaj liczbę ocen: ");
 
         double suma = 0;
         for (int i = 1; i <= n; i++)
         {
-            double ocena = WczytajDouble($"Podaj ocenę {i}: ");
+            double ocena = ReadDouble($"Podaj ocenę {i}: ");
             suma += ocena;
         }
 
