@@ -1,14 +1,14 @@
-def wczytaj_liczbe(tekst):
+def read_number(text):
     while True:
         try:
-            return float(input(tekst))
+            return float(input(text))
         except ValueError:
             print("Błąd: podaj poprawną liczbę!")
 
 
-def kalkulator():
-    a = wczytaj_liczbe("Podaj pierwszą liczbę: ")
-    b = wczytaj_liczbe("Podaj drugą liczbę: ")
+def calculator():
+    a = read_number("Podaj pierwszą liczbę: ")
+    b = read_number("Podaj drugą liczbę: ")
 
     op = input("Wybierz operację (+, -, *, /): ")
 
@@ -28,23 +28,23 @@ def kalkulator():
             print("Nieznana operacja.")
 
 
-def konwerter_temperatur():
-    kierunek = input("Wybierz konwersję (C lub F): ").upper()
+def temperature_converter():
+    direction = input("Wybierz konwersję (C lub F): ").upper()
 
-    match kierunek:
+    match direction:
         case "C":
-            c = wczytaj_liczbe("Podaj temperaturę w °C: ")
+            c = read_number("Podaj temperaturę w °C: ")
             print(f"{c}°C = {c * 1.8 + 32}°F")
 
         case "F":
-            f = wczytaj_liczbe("Podaj temperaturę w °F: ")
+            f = read_number("Podaj temperaturę w °F: ")
             print(f"{f}°F = {(f - 32) / 1.8}°C")
 
         case _:
             print("Nieprawidłowy wybór!")
 
 
-def srednia_ocen():
+def grades_average():
     while True:
         try:
             n = int(input("Podaj liczbę ocen: "))
@@ -54,13 +54,13 @@ def srednia_ocen():
 
     suma = 0
     for i in range(n):
-        ocena = wczytaj_liczbe(f"Podaj ocenę {i + 1}: ")
-        suma += ocena
+        grade = read_number(f"Podaj ocenę {i + 1}: ")
+        suma += grade
 
-    srednia = suma / n
-    print(f"Średnia: {srednia:.2f}")
+    average = suma / n
+    print(f"Średnia: {average:.2f}")
 
-    if srednia >= 3.0:
+    if average >= 3.0:
         print("Uczeń zdał.")
     else:
         print("Uczeń nie zdał.")
@@ -74,15 +74,15 @@ while True:
     print("3. Średnia ocen ucznia")
     print("0. Wyjście")
 
-    wybor = input("Wybierz opcję: ")
+    choice = input("Wybierz opcję: ")
 
-    match wybor:
+    match choice:
         case "1":
-            kalkulator()
+            calculator()
         case "2":
-            konwerter_temperatur()
+            temperature_converter()
         case "3":
-            srednia_ocen()
+            grades_average()
         case "0":
             break
         case _:
