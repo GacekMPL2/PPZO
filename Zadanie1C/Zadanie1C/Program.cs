@@ -35,7 +35,6 @@ class Program
         }
     }
 
-    // --- Funkcja pomocnicza do wczytywania liczby ---
     static double ReadDouble(string komunikat)
     {
         double liczba;
@@ -141,4 +140,5 @@ class Program
         else
             Console.WriteLine("Uczeń nie zdał.");
     }
+
 }
